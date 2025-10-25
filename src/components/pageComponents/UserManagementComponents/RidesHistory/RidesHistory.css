@@ -1,0 +1,128 @@
+/* Existing styles */
+
+.rides-title {
+    color: #FFBC07;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.ridesTable {
+    background: rgba(255, 135, 7, 0.14);
+    border-radius: 18px;
+    padding: 5px 10px;
+}
+
+.table-responsive {
+    margin: 20px 0;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.rides-table-head {
+    border-radius: 18px;
+    margin-bottom: 20px;
+    background-color: #FFBC07;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+
+.rides-table-head th {
+    padding: 10px 0;
+    background-color: #FFBC07;
+    color: white;
+}
+
+.table-borderless th,
+.table-borderless td {
+    border: none;
+}
+
+.rides-table th {
+    font-size: 14px;
+}
+
+.rides-table td {
+    font-size: 11.5px;
+    font-weight: 600;
+    color: #E6EEFE;
+    background: #565B63;
+    line-height: 17px;
+    padding: 15px;
+}
+
+.rides-table td:first-child {
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+.rides-table td:last-child {
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.rides-table tr:last-child td:first-child {
+    border-bottom-left-radius: 18px;
+}
+
+.rides-table tr:last-child td:last-child {
+    border-bottom-right-radius: 18px;
+}
+
+.user-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.user-name {
+    margin: 0;
+    font-weight: bold;
+}
+
+.user-number,
+.user-email {
+    margin: 0;
+    color: #E6EEFE;
+}
+
+.rides-table .rides-status {
+    color: #1FE090;
+}
+
+/* Add new responsive styles */
+
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+@media screen and (max-width: 768px) {
+
+    .rides-table th,
+    .rides-table td {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .user-info {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .user-name,
+    .user-number,
+    .user-email {
+        font-size: 10px;
+    }
+}

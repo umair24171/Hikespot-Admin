@@ -1,0 +1,29 @@
+.ranking-box {
+    margin-top: 20px;
+    background: #404753;
+    padding: 10px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.ranking-heading {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.ranking-sub-heading {
+    /* font-size: 25px; */
+    font-weight: 700;
+    color: #FFBC07;
+}
+
+.chart-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+}

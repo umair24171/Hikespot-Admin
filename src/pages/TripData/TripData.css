@@ -1,0 +1,179 @@
+.trip-info-card {
+    padding: 10px;
+    background: linear-gradient(to right, #323943, #434B56);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.3s ease;
+    width: 100%;
+    max-width: 300px;
+    height: 270px;
+    box-sizing: border-box;
+}
+
+.trip-card-title {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+    color: #FFBC07;
+}
+
+.trip-card-sub-title {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+    color: #fff;
+}
+
+.trip-card-price {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 800;
+    margin: 0.5rem 0;
+    color: #FFBC07;
+}
+
+.trip-info-card .trip-card-icons {
+    width: 40px;
+    height: 40px;
+}
+
+.trip-btn {
+    background: linear-gradient(#FFF08D, #FFBC07);
+    padding: 10px 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.trip-btn-icon1 {
+    color: #fff;
+}
+
+.trip-btn-icon2 {
+    color: #fff;
+}
+
+.trip-menu {
+    background: #32394375;
+    border-radius: 10px;
+}
+
+.trip-menu-item {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.trip-menu-line {
+    margin: 0;
+    border-color: #fff;
+}
+
+.trip-menu-item .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.trip-menu-item.selected .circle {
+    background: #FFBC07;
+}
+
+
+@media (max-width: 767px) {
+    .trip-info-card {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .trip-card-title,
+    .trip-card-price,
+    .trip-card-sub-title {
+        font-size: 1rem;
+    }
+
+    .trip-btn {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+
+    .trip-menu-item {
+        padding: 8px 16px;
+    }
+}
+
+
+
+/* Custom background gradient for the date picker */
+.react-datepicker {
+  background: linear-gradient(#FFBC0724, #FF870724);
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+}
+
+/* Custom styles for the header */
+.react-datepicker__header {
+  background-color: transparent;
+  border-bottom: none;
+}
+
+/* Custom styles for the current month label */
+.react-datepicker__current-month {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Custom styles for the day names (e.g., Mon, Tue) */
+.react-datepicker__day-names {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+}
+
+/* Custom styles for individual days */
+.react-datepicker__day {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Highlight the selected day */
+.react-datepicker__day--selected {
+  background-color: #FFBC07;
+  color: #000;
+  border-radius: 50%;
+}
+
+/* Custom styles for today */
+.react-datepicker__day--today {
+  color: #FFBC07;
+  font-weight: bold;
+}
+
+/* Custom styles for the navigation buttons */
+.react-datepicker__navigation {
+  top: 10px;
+}
+
+.react-datepicker__navigation--previous {
+  border-right-color: #fff;
+}
+
+.react-datepicker__navigation--next {
+  border-left-color: #fff;
+}

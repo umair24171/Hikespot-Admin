@@ -1,0 +1,29 @@
+.list-promotion-mainBox {
+    background: linear-gradient(#323943, #434B56);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.list-form-btn1 {
+    background: linear-gradient(#FFF08D, #FFBC07);
+    color: #000;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 10px 55px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.list-form-btn2 {
+    background: linear-gradient(#F00D42, #CF2544);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 10px 55px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,193 @@
+.title {
+    color: #FFBC07;
+    cursor: pointer;
+}
+
+/* table */
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table thead th {
+    white-space: nowrap;
+}
+
+.table td,
+.table th {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 8px;
+}
+
+.table .col-driver {
+    width: 150px;
+}
+
+.table .col-customer {
+    width: 150px;
+}
+
+.table .col-from {
+    width: 200px;
+}
+
+.table .col-stepover {
+    width: 200px;
+}
+
+.table .col-to {
+    width: 200px;
+}
+
+.table .col-track {
+    width: 150px;
+}
+
+.table .col-details {
+    width: 150px;
+}
+
+.table .col-car {
+    width: 200px;
+}
+
+.user-cell {
+    display: flex;
+    align-items: center;
+}
+
+.user-cell .user-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-cell .user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-cell .user-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+}
+
+.user-cell .user-number,
+.user-cell .user-email {
+    font-size: 12px;
+    color: #ccc;
+    margin: 0;
+}
+
+.status {
+    color: green;
+}
+
+
+.table-responsive::-webkit-scrollbar-thumb {
+    background: #ccc !important;
+}
+
+.table .thead-dark th {
+    border-color: rgba(255, 255, 255, 0.1) !important;
+    background-color: #FFBC07 !important;
+    font-size: 14px !important;
+    color: white;
+    border: none;
+}
+
+.table tbody td {
+    font-size: 13px !important;
+    color: #fff;
+    background-color: #565B63;
+    font-weight: 500;
+    border: none;
+    padding: 20px 10px;
+
+}
+
+.table tbody tr {
+    background-color: #565B63;
+}
+
+.table tbody tr+tr {
+    margin-top: 20px;
+}
+
+.table tbody .actions button {
+    min-width: 32px !important;
+    /* font-size: 17px; */
+    width: 25px;
+    height: 25px;
+    margin: 0px 3px !important;
+}
+
+.table tbody .actions button svg {
+    font-size: 30px !important;
+}
+
+table.v-align td {
+    vertical-align: middle !important;
+}
+
+table td .imgWrapper {
+    width: 20%;
+    flex: 0 0 20%;
+}
+
+table td .imgWrapper img {
+    border-radius: 5px;
+}
+
+table td .info {
+    width: 65%;
+    flex: 0 0 65%;
+}
+
+
+table td .info h6 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+table td .info p {
+    font-size: 13px;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #5e5d72;
+    margin-bottom: 0px;
+}
+
+table td .doctorBox {
+    width: 230px;
+}
+
+
+.tableFooter {
+    padding-bottom: 20px;
+}
+
+.tableFooter .pagination {
+    margin-left: auto;
+}
+
+.tableFooter p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+    background-color: #0858f7 !important;
+}

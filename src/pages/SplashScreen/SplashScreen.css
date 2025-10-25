@@ -1,0 +1,12 @@
+.splash-screen-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.splash-screen-container img {
+  max-width: 100%;
+  height: auto;
+}

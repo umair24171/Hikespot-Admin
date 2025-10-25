@@ -1,0 +1,80 @@
+.mainBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.promotion-mainBox {
+    background: linear-gradient(#323943, #434B56);
+    border-radius: 10px;
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    color: #fff;
+}
+
+.form-control {
+    background: #565B63;
+    color: #fff;
+}
+
+.form-control::placeholder {
+    color: #fff;
+}
+
+.form-btn {
+    background-color: #FFFFFFB0;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-btn.btn-filled {
+    background: linear-gradient(#FFF08D, #FFBC07);
+    color: #000;
+    font-weight: 800;
+}
+
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker__input-container {
+  width: 100%;
+}
+
+.react-datepicker__input {
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .promotion-mainBox {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .promotion-mainBox {
+        width: 90%;
+    }
+
+    .form-btn {
+        width: 100%;
+        text-align: center;
+    }
+}

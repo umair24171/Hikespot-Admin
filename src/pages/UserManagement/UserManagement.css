@@ -1,0 +1,54 @@
+.user-btn {
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    /* Prevent text wrapping */
+}
+
+.user-btn.active {
+    background: linear-gradient(to right, #FFF08D, #FFBC07);
+    border-radius: 15px;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 3px 10px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+
+.user-para {
+    color: #FFBC07;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.user-badge {
+    position: absolute;
+    top: 80px;
+    right: 35px;
+    font-weight: normal;
+    font-size: 12px;
+    padding: 3px 8px;
+    color: white;
+    border-radius: 50%;
+}
+
+/* Adjust button font size and padding for smaller screens */
+@media (max-width: 768px) {
+    .user-btn {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .user-para {
+        font-size: 14px;
+    }
+}

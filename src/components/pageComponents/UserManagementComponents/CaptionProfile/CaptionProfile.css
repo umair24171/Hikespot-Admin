@@ -1,0 +1,279 @@
+.table-captain {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* 
+
+.user-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user-name {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.details-btn {
+    background-color: #FFBC0740;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.details-btn:hover {
+    background-color: #FFC107;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 1rem;
+}
+
+.table-captain {
+    min-width: 600px;
+}
+
+.table-captain td {
+    font-size: 16px;
+    font-weight: 400;
+    color: #E6EEFE;
+    background: #565B63;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+
+.table-captain td:first-child {
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+.table-captain td:last-child {
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.table-captain tr:last-child td:first-child {
+    border-bottom-left-radius: 18px;
+}
+
+.table-captain tr:last-child td:last-child {
+    border-bottom-right-radius: 18px;
+} */
+
+
+
+
+
+/* table */
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table thead th {
+    white-space: nowrap;
+}
+
+.table td,
+.table th {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 8px;
+}
+
+.table .col-driver {
+    width: 150px;
+}
+
+.table .col-customer {
+    width: 150px;
+}
+
+.table .col-from {
+    width: 200px;
+}
+
+.table .col-stepover {
+    width: 200px;
+}
+
+.table .col-to {
+    width: 200px;
+}
+
+.table .col-track {
+    width: 150px;
+}
+
+.table .col-details {
+    width: 150px;
+}
+
+.table .col-car {
+    width: 200px;
+}
+
+.user-cell {
+    display: flex;
+    align-items: center;
+}
+
+.user-cell .user-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-cell .user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-cell .user-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+}
+
+.user-cell .user-number,
+.user-cell .user-email {
+    font-size: 12px;
+    color: #ccc;
+    margin: 0;
+}
+
+
+.col-btn {
+    padding: 10px 10px;
+}
+
+.capitalBtn {
+    padding: 10px 15px;
+    background: #FFBC0740;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.status {
+    color: green;
+}
+
+
+.table-responsive::-webkit-scrollbar-thumb {
+    background: #ccc !important;
+}
+
+.table .thead-dark th {
+    border-color: rgba(255, 255, 255, 0.1) !important;
+    background-color: #FFBC07 !important;
+    font-size: 14px !important;
+    color: white;
+    border: none;
+}
+
+.table tbody td {
+    font-size: 13px !important;
+    color: #fff;
+    background-color: #565B63;
+    font-weight: 500;
+    border: none;
+    padding: 20px 10px;
+
+}
+
+.table tbody tr {
+    background-color: #565B63;
+}
+
+.table tbody tr+tr {
+    margin-top: 20px;
+}
+
+.table tbody .actions button {
+    min-width: 32px !important;
+    /* font-size: 17px; */
+    width: 25px;
+    height: 25px;
+    margin: 0px 3px !important;
+}
+
+.table tbody .actions button svg {
+    font-size: 30px !important;
+}
+
+table.v-align td {
+    vertical-align: middle !important;
+}
+
+table td .imgWrapper {
+    width: 20%;
+    flex: 0 0 20%;
+}
+
+table td .imgWrapper img {
+    border-radius: 5px;
+}
+
+table td .info {
+    width: 65%;
+    flex: 0 0 65%;
+}
+
+
+table td .info h6 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+table td .info p {
+    font-size: 13px;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #5e5d72;
+    margin-bottom: 0px;
+}
+
+table td .doctorBox {
+    width: 230px;
+}
+
+
+.tableFooter {
+    padding-bottom: 20px;
+}
+
+.tableFooter .pagination {
+    margin-left: auto;
+}
+
+.tableFooter p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+    background-color: #0858f7 !important;
+}

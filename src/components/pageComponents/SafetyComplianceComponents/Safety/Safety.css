@@ -1,0 +1,29 @@
+.safety-btn {
+  border: none;
+  background: none;
+  color: #FFBC078C;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.safety-btn.active {
+  border-radius: 15px;
+  color: #FFBC07;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 3px 10px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/* Adjust button font size and padding for smaller screens */
+@media (max-width: 768px) {
+  .safety-btn {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+}

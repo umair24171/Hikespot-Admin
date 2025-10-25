@@ -1,0 +1,16 @@
+.document-box {
+    background: #3E4550;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.document-full-img {
+    max-height: 600px;
+    border-radius: 10px;
+    width: auto;
+    max-width: 100%;
+}

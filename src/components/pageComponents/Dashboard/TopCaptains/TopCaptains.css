@@ -1,0 +1,46 @@
+.captains {
+    background: linear-gradient(180deg, #323943 0%, #434B56 100%);
+    border-radius: 10px;
+    padding: 7px 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name {
+    margin: 0;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.user-number {
+    margin: 0;
+    color: gray;
+    font-size: 9.45px;
+}
+
+.captains .info {
+    font-size: 11px;
+}
+.captains .detail {
+    font-size: 16px;
+    color: #FFBC07;
+}
+
+.captains .d-flex p {
+    margin: 0;
+}
+
+.captains hr {
+    margin: 10px 0;
+    /* Adjust as needed */
+}

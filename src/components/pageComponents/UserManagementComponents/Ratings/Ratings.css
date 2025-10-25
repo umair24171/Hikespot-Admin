@@ -1,0 +1,13 @@
+.rating-box {
+    background: linear-gradient(to right, #323943, #434B56);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.rating-heading{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFBC07;
+    align-items: start;
+}

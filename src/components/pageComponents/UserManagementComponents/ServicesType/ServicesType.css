@@ -1,0 +1,45 @@
+.service-box {
+    background: linear-gradient(to right, #323943, #434B56);
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    position: relative;
+}
+
+.service-heading1 {
+    color: #FFBC07;
+    font-size: 24px;
+    font-weight: 700;
+    align-self: flex-start;  /* Aligns the heading to the start */
+}
+
+.service-box2 {
+    background: linear-gradient(to right, #8F8484, #53535300);
+    border-radius: 10px;
+    border: 2px solid #CBCCD42B;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.service-heading2 {
+    max-width: 200px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFBC07;
+}
+
+.service-para {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.service-img {
+    width: 240px;
+    height: auto;
+}

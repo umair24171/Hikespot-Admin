@@ -1,0 +1,75 @@
+.fleet-overview-heading1 {
+  color: #FFBC07;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.fleet-overview-heading2 {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 30px;
+}
+
+.rides-mainBox {
+  background: #323943;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.rides-img {
+  transform: scaleX(-1);
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.ride-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.ride-info {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.rides-count {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #FFBC07;
+  text-align: right;
+}
+
+.progressBar {
+  margin-top: 20px;
+}
+
+.linear-progress {
+  height: 20px;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .fleet-overview-heading1, .fleet-overview-heading2 {
+    font-size: 20px;
+  }
+
+  .rides-mainBox {
+    padding: 20px;
+  }
+
+  .ride-title, .rides-count {
+    font-size: 16px;
+  }
+
+  .ride-info {
+    font-size: 12px;
+  }
+
+  .linear-progress {
+    height: 10px;
+  }
+}

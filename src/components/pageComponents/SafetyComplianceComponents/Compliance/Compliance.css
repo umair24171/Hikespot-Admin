@@ -1,0 +1,63 @@
+.compliance-box {
+    background: #FFBC071C;
+    padding: 100px 15px;
+    border-radius: 10px;
+}
+
+
+.compliance-btn {
+    background: #FFBC0740;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+    display: block;  /* Ensures the button takes full width */
+    margin: auto;   /* Centers the button */
+    text-align: center;
+}
+
+.compliance-btn:hover {
+    background: #805e08e5;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.dropdown-menu {
+    background-color: #323943;
+    border: none;
+    width: 100%;
+}
+
+.dropdown-item {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown-item:hover {
+    background-color: #434B56;
+    color: #FFBC07;
+}
+
+.dropdown-item .status-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.dropdown-item.selected .status-dot {
+    background-color: #FFBC07;
+}
+
+@media (max-width: 768px) {
+    .compliance-btn {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+}

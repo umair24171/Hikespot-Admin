@@ -1,0 +1,131 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.login-content {
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.login-heading {
+  color: #352C2D;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: Lexend;
+}
+
+.login-para {
+  color: #352C2D;
+  font-size: 21px;
+  font-weight: 300;
+  font-family: Lexend;
+  margin-bottom: 30px;
+}
+
+.login-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.input-group-login {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: 100%;
+  /* Ensure full width */
+  position: relative;
+  /* Position relative for child elements */
+}
+
+.input-group-login input {
+  background: #fff;
+  width: calc(100% - 40px);
+  /* Ensure full width minus icon space */
+  padding: 10px;
+  /* Add padding for better visibility */
+  border: none;
+  /* Remove border */
+  outline: none;
+  /* Remove default outline */
+  color: #333;
+  /* Text color */
+  font-size: 16px;
+  /* Font size */
+}
+
+.input-group-login input::placeholder {
+  color: gray;
+}
+
+.input-icon {
+  margin-right: 10px;
+  color: #333;
+}
+
+.password-toggle-icon {
+  cursor: pointer;
+  margin-left: 10px;
+  position: absolute;
+  /* Position relative to parent */
+  right: 10px;
+  /* Position near the right edge */
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  /* Add padding for better visibility */
+  border: none;
+  /* Remove border */
+  outline: none;
+  /* Remove default outline */
+  background: none;
+  /* Inherit parent background */
+}
+
+.login-button {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #C9C9C9;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  cursor: not-allowed;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.login-button.active {
+  background-color: #FFBC07;
+  cursor: pointer;
+  color: #fff;
+}
+
+.login-button:hover {
+  background-color: #888787;
+}
+
+.button-icon {
+  margin-left: 5px;
+  background-color: #00000033;
+  border-radius: 100%;
+  padding: 3px;
+  color: white;
+}

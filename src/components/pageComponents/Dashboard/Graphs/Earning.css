@@ -1,0 +1,35 @@
+/* Earning.css */
+.graphContainer {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #323943;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lineChart {
+    font-family: 'Arial', sans-serif;
+}
+
+.axis {
+    font-size: 12px;
+    fill: #333;
+}
+
+.tooltip {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.line {
+    stroke-width: 2;
+}
+
+.recharts-tooltip-wrapper {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}

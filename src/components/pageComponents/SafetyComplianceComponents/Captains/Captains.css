@@ -1,0 +1,23 @@
+.captain-callBtn {
+    background: #323943;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.captain-callBtn-icon {
+    background: #DDDDDD;
+    color: #F00D42;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}

@@ -1,0 +1,171 @@
+.financial-mainBox {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.financial-btn-box {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.financial-btn {
+    background: linear-gradient(#FFF08D5C, #FFBC075C);
+    padding: 10px 10px;
+    border: 1px solid #FFBC07;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.financial-btn-price {
+    color: #FFBC07;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.financial-box {
+    background: linear-gradient(#323943, #434B56);
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.financial-box-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.financial-box-img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.financial-box-heading1 {
+    font-weight: 600;
+}
+
+.financial-box-number {
+    color: #FFBC07;
+    font-weight: 700;
+}
+
+.financial-box-heading2 {
+    font-size: 14px;
+}
+
+.financial-mainBox-payment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 0 20px;
+}
+
+.financial-box-payment {
+    background: #FFBC075C;
+    padding: 20px 20px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.financial-box-payment-heading1 {
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.financial-box-payment-btn-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.financial-box-payment-heading2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.financial-box-pay-btn {
+    background: linear-gradient(#FFF08D, #FFBC07);
+    padding: 8px 20px;
+    color: #2F3B38;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.financial-box-pay-btn:hover {
+    color: #fff;
+    background: #f1b715;
+}
+
+@media (max-width: 768px) {
+    .financial-mainBox {
+        padding: 10px;
+    }
+
+    .financial-btn-box {
+        justify-content: center;
+    }
+
+    .financial-box {
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    .financial-mainBox-payment {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 0;
+    }
+
+    .financial-box-payment-btn-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .financial-box-payment-heading2 {
+        font-size: 18px;
+    }
+
+    .financial-box-pay-btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .financial-box-img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .financial-box-payment-heading1 {
+        font-size: 18px;
+    }
+
+    .financial-box-payment-heading2 {
+        font-size: 16px;
+    }
+}

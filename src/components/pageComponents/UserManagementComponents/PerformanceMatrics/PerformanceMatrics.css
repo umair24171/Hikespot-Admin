@@ -1,0 +1,19 @@
+.performance-box {
+    background: linear-gradient(to right, #323943, #434B56);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.performance-heading {
+    color: #FFBC07;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.graph-heading{
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
